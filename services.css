@@ -1,0 +1,52 @@
+.our-services{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80%;
+    margin: 32px auto;
+    background-color: #fff;
+    border-top: 3px solid #f12d15;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin: -5% auto 0;
+    
+}
+.center{
+z-index: -1;
+}
+.our-services h2{
+    font-weight: bold;
+    color: red;
+    margin: 40px 0;
+    padding-top: 50px;
+}
+.subtitling{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap:30px;
+}
+.subtitling .subtitling-card{
+    text-align: center;
+    box-shadow: 0px 2px 6px 5px rgb(141, 210, 241);
+    padding: 40px 10px;
+    margin-bottom: 20px;
+}
+.subtitling .subtitling-card h3{
+    color: red;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+footer{
+    margin-top: 40px;
+    border-top: 1px solid red;
+}
+section.center {
+  position: relative; /* أو إذا absolute اضعف z-index */
+  z-index: 1;
+}
+
+header {
+  position: relative;
+  z-index: 9999;
+}
